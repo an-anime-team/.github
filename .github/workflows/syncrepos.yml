@@ -16,6 +16,7 @@ jobs:
         with:
           target_repo_url: ${{ secrets.CBDAWN }}
           ssh_private_key: ${{ secrets.CODEBERG_SSH }}
+          directory: "dawn"
   codebergdusk:
     runs-on: ubuntu-latest
     steps:
