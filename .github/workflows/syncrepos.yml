@@ -8,7 +8,7 @@ jobs:
   codebergdawn:
     runs-on: ubuntu-latest
     steps:
-      - run: git clone ${{ secrets.NABDAWN }}
+      - run: git clone ${{ secrets.NABDAWN }} && cd dawn
       - uses: pixta-dev/repository-mirroring-action@v1
         with:
           target_repo_url: ${{ secrets.CBDAWN }}
@@ -16,7 +16,7 @@ jobs:
   codebergdusk:
     runs-on: ubuntu-latest
     steps:
-      - run: git clone ${{ secrets.NABDUSK }}
+      - run: git clone ${{ secrets.NABDUSK }} && cd dusk
       - uses: pixta-dev/repository-mirroring-action@v1
         with:
           target_repo_url: ${{ secrets.CBDUSK }}
@@ -24,7 +24,7 @@ jobs:
   codebergastra:
     runs-on: ubuntu-latest
     steps:
-      - run: git clone ${{ secrets.NABASTRA }}
+      - run: git clone ${{ secrets.NABASTRA }} && cd dusk
       - uses: pixta-dev/repository-mirroring-action@v1
         with:
           target_repo_url: ${{ secrets.CBASTRA }}
