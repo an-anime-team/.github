@@ -8,14 +8,14 @@ jobs:
   codebergdawn:
     runs-on: ubuntu-latest
     steps:
-      - run: |
+      - name: clone
+        run: |
           git clone ${{ secrets.NABDAWN }}
           cd dawn
-      - uses: yesolutions/mirror-action@v0.6.0
+      - uses:  Mar0xy/repository-mirroring-action@master
         with:
-          REMOTE: ${{ secrets.CBDAWN }}
-          GIT_SSH_PRIVATE_KEY: ${{ secrets.CODEBERG_SSH }}
-          GIT_SSH_NO_VERIFY_HOST: "true"
+          target_repo_url: ${{ secrets.CBDAWN }}
+          ssh_private_key: ${{ secrets.CODEBERG_SSH }}
   codebergdusk:
     runs-on: ubuntu-latest
     steps:
