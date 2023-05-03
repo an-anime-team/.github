@@ -12,7 +12,7 @@ jobs:
         run: |
           git clone ${{ secrets.NABDAWN }}
           cd dawn
-      - uses:  Mar0xy/repository-mirroring-action@master
+      - uses:  Mar0xy/repository-mirroring-action@main
         with:
           target_repo_url: ${{ secrets.CBDAWN }}
           ssh_private_key: ${{ secrets.CODEBERG_SSH }}
