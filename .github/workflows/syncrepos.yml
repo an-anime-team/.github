@@ -11,11 +11,11 @@ jobs:
       - run: |
           git clone ${{ secrets.NABDAWN }}
           cd dawn
-          ls .git
-      - uses: pixta-dev/repository-mirroring-action@v1
+      - uses: yesolutions/mirror-action@v0.6.0
         with:
-          target_repo_url: ${{ secrets.CBDAWN }}
-          ssh_private_key: ${{ secrets.CODEBERG_SSH }}
+          REMOTE: ${{ secrets.CBDAWN }}
+          GIT_SSH_PRIVATE_KEY: ${{ secrets.CODEBERG_SSH }}
+          GIT_SSH_NO_VERIFY_HOST: "true"
   codebergdusk:
     runs-on: ubuntu-latest
     steps:
