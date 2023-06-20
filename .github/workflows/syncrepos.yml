@@ -21,7 +21,7 @@ jobs:
       - run: git clone https://github.com/an-anime-team/an-anime-game-launcher
       - uses: Mar0xy/repository-mirroring-action@launch
         with:
-          target_repo_url: https://codeberg.org/an-anime-team/an-anime-game-launcher
+          target_repo_url: git@codeberg.org:an-anime-team/an-anime-game-launcher.git
           ssh_private_key: ${{ secrets.CODEBERG_SSH }}
           directory: "an-anime-game-launcher"
           
@@ -31,7 +31,7 @@ jobs:
       - run: git clone https://github.com/an-anime-team/an-anime-borb-launcher
       - uses: Mar0xy/repository-mirroring-action@launch
         with:
-          target_repo_url: https://codeberg.org/an-anime-team/an-anime-borb-launcher
+          target_repo_url: git@codeberg.org:an-anime-team/an-anime-borb-launcher.git
           ssh_private_key: ${{ secrets.CODEBERG_SSH }}
           directory: "an-anime-borb-launcher"
           
@@ -41,7 +41,7 @@ jobs:
       - run: git clone https://github.com/an-anime-team/the-honkers-railway-launcher
       - uses: Mar0xy/repository-mirroring-action@launch
         with:
-          target_repo_url: https://codeberg.org/an-anime-team/the-honkers-railway-launcher
+          target_repo_url: git@codeberg.org:an-anime-team/the-honkers-railway-launcher.git
           ssh_private_key: ${{ secrets.CODEBERG_SSH }}
           directory: "the-honkers-railway-launcher"
           
@@ -51,6 +51,6 @@ jobs:
       - run: git clone https://github.com/an-anime-team/honkers-launcher
       - uses: Mar0xy/repository-mirroring-action@launch
         with:
-          target_repo_url: https://codeberg.org/an-anime-team/honkers-launcher
+          target_repo_url: git@codeberg.org:an-anime-team/honkers-launcher.git
           ssh_private_key: ${{ secrets.CODEBERG_SSH }}
           directory: "honkers-launcher"
