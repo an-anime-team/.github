@@ -54,3 +54,23 @@ jobs:
           target_repo_url: git@codeberg.org:an-anime-team/honkers-launcher.git
           ssh_private_key: ${{ secrets.CODEBERG_SSH }}
           directory: "honkers-launcher"
+          
+  codebergcore:
+    runs-on: ubuntu-latest
+    steps:
+      - run: git clone https://github.com/an-anime-team/anime-game-core
+      - uses: Mar0xy/repository-mirroring-action@launchalt
+        with:
+          target_repo_url: git@codeberg.org:an-anime-team/anime-game-core.git
+          ssh_private_key: ${{ secrets.CODEBERG_SSH }}
+          directory: "anime-game-core"
+          
+  codebergsdk:
+    runs-on: ubuntu-latest
+    steps:
+      - run: git clone https://github.com/an-anime-team/anime-launcher-sdk
+      - uses: Mar0xy/repository-mirroring-action@launchalt
+        with:
+          target_repo_url: git@codeberg.org:an-anime-team/anime-launcher-sdk.git
+          ssh_private_key: ${{ secrets.CODEBERG_SSH }}
+          directory: "anime-launcher-sdk"
