@@ -14,21 +14,3 @@ jobs:
           target_repo_url: ${{ secrets.CBDAWN }}
           ssh_private_key: ${{ secrets.CODEBERG_SSH }}
           directory: "dawn"
-  codebergdusk:
-    runs-on: ubuntu-latest
-    steps:
-      - run: git clone ${{ secrets.NABDUSK }}
-      - uses: Mar0xy/repository-mirroring-action@main
-        with:
-          target_repo_url: ${{ secrets.CBDUSK }}
-          ssh_private_key: ${{ secrets.CODEBERG_SSH }}
-          directory: "dusk"
-  codebergastra:
-    runs-on: ubuntu-latest
-    steps:
-      - run: git clone ${{ secrets.NABASTRA }}
-      - uses: Mar0xy/repository-mirroring-action@main
-        with:
-          target_repo_url: ${{ secrets.CBASTRA }}
-          ssh_private_key: ${{ secrets.CODEBERG_SSH }}
-          directory: "astra"
