@@ -14,3 +14,43 @@ jobs:
           target_repo_url: ${{ secrets.CBDAWN }}
           ssh_private_key: ${{ secrets.CODEBERG_SSH }}
           directory: "dawn"
+          
+  codebergaagl:
+    runs-on: ubuntu-latest
+    steps:
+      - run: git clone https://github.com/an-anime-team/an-anime-game-launcher
+      - uses: Mar0xy/repository-mirroring-action@launch
+        with:
+          target_repo_url: https://codeberg.org/an-anime-team/an-anime-game-launcher
+          ssh_private_key: ${{ secrets.CODEBERG_SSH }}
+          directory: "an-anime-game-launcher"
+          
+  codebergabl:
+    runs-on: ubuntu-latest
+    steps:
+      - run: git clone https://github.com/an-anime-team/an-anime-borb-launcher
+      - uses: Mar0xy/repository-mirroring-action@launch
+        with:
+          target_repo_url: https://codeberg.org/an-anime-team/an-anime-borb-launcher
+          ssh_private_key: ${{ secrets.CODEBERG_SSH }}
+          directory: "an-anime-borb-launcher"
+          
+  codeberghrl:
+    runs-on: ubuntu-latest
+    steps:
+      - run: git clone https://github.com/an-anime-team/the-honkers-railway-launcher
+      - uses: Mar0xy/repository-mirroring-action@launch
+        with:
+          target_repo_url: https://codeberg.org/an-anime-team/the-honkers-railway-launcher
+          ssh_private_key: ${{ secrets.CODEBERG_SSH }}
+          directory: "the-honkers-railway-launcher"
+          
+  codeberghl:
+    runs-on: ubuntu-latest
+    steps:
+      - run: git clone https://github.com/an-anime-team/honkers-launcher
+      - uses: Mar0xy/repository-mirroring-action@launch
+        with:
+          target_repo_url: https://codeberg.org/an-anime-team/honkers-launcher
+          ssh_private_key: ${{ secrets.CODEBERG_SSH }}
+          directory: "honkers-launcher"
