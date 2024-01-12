@@ -74,3 +74,23 @@ jobs:
           target_repo_url: git@codeberg.org:an-anime-team/anime-launcher-sdk.git
           ssh_private_key: ${{ secrets.CODEBERG_SSH }}
           directory: "anime-launcher-sdk"
+
+  codebergintegration:
+    runs-on: ubuntu-latest
+    steps:
+      - run: git clone https://github.com/an-anime-team/game-integrations
+      - uses: Mar0xy/repository-mirroring-action@launchalt
+        with:
+          target_repo_url: git@codeberg.org:an-anime-team/game-integrations.git
+          ssh_private_key: ${{ secrets.CODEBERG_SSH }}
+          directory: "game-integrations"
+          
+  codebergagl:
+    runs-on: ubuntu-latest
+    steps:
+      - run: git clone https://github.com/an-anime-team/anime-games-launcher
+      - uses: Mar0xy/repository-mirroring-action@launchalt
+        with:
+          target_repo_url: git@codeberg.org:an-anime-team/anime-games-launcherk.git
+          ssh_private_key: ${{ secrets.CODEBERG_SSH }}
+          directory: "anime-games-launcher"
