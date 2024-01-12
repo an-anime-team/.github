@@ -85,12 +85,12 @@ jobs:
           ssh_private_key: ${{ secrets.CODEBERG_SSH }}
           directory: "game-integrations"
           
-  codebergagl:
+  codebergacomp:
     runs-on: ubuntu-latest
     steps:
-      - run: git clone https://github.com/an-anime-team/anime-games-launcher
+      - run: git clone https://github.com/an-anime-team/components
       - uses: Mar0xy/repository-mirroring-action@launchalt
         with:
-          target_repo_url: git@codeberg.org:an-anime-team/anime-games-launcher.git
+          target_repo_url: git@codeberg.org:an-anime-team/components.git
           ssh_private_key: ${{ secrets.CODEBERG_SSH }}
-          directory: "anime-games-launcher"
+          directory: "components"
