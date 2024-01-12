@@ -91,6 +91,6 @@ jobs:
       - run: git clone https://github.com/an-anime-team/anime-games-launcher
       - uses: Mar0xy/repository-mirroring-action@launchalt
         with:
-          target_repo_url: git@codeberg.org:an-anime-team/anime-games-launcherk.git
+          target_repo_url: git@codeberg.org:an-anime-team/anime-games-launcher.git
           ssh_private_key: ${{ secrets.CODEBERG_SSH }}
           directory: "anime-games-launcher"
