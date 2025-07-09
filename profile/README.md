@@ -1,7 +1,7 @@
 <p align="center">
     <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="logo-dark.png">
-        <img src="logo-light.png" />
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/an-anime-team/.github/refs/heads/main/logo-dark.png">
+        <img src="https://raw.githubusercontent.com/an-anime-team/.github/refs/heads/main/logo-light.png" />
     </picture>
 </p>
 
