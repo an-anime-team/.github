@@ -7,5 +7,6 @@
 
 <p align="center">
     <a href="https://discord.gg/ck37X6UWBp">Discord</a> ·
-    <a href="https://docs.launcher.moe">Documentation</a>
+    <a href="https://zulip.dawn.wine">Zulip</a> ·
+    <a href="https://dawn.wine">Forgejo</a>
 </p>
