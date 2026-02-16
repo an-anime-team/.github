@@ -7,6 +7,7 @@
 
 <p align="center">
     <a href="https://discord.gg/ck37X6UWBp">Discord</a> ·
+    <a href="https://fluxer.gg/tHir9aSq">Fluxer</a> ·
     <a href="https://zulip.dawn.wine">Zulip</a> ·
     <a href="https://dawn.wine">Forgejo</a>
 </p>
