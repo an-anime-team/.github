@@ -22,7 +22,7 @@ site and the CDN for DW-Proton builds.
 
 There are different individuals responsible for various projects, so you can choose whom to send your donation to:
 
-- Infrastructure (domain names, servers, CDN; **most of our expenses**): [@Mar0xy](https://github.com/Mar0xy)
+- Infrastructure (domain names, servers, CDN; **most of our expenses**): [Marie and /dev/catgirl via our OpenCollective](https://opencollective.com/dawn-winery)
 - Patches developers (people responsible for supporting some games running on linux): [@mkrsym1](https://github.com/mkrsym1)
 - DW-Proton (our in-house proton fork with custom patches for some games): [@NelloKudo](https://github.com/NelloKudo)
 - Launchers (AAGL, THRL, "anime steam", etc.): [@krypt0nn](https://github.com/krypt0nn)
