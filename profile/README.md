@@ -16,18 +16,31 @@
 
 ## Donations
 
-<p align="center">We accept donations mainly through OpenCollective and would like to thank all our backers</p>
-<h4 align="center">Monthly</h4>
+All our projects are developed in our free time using our own resources. Essentially, the only
+significant expenses are related to our own infrastructure, most notably the [dawn.wine](https://dawn.wine)
+site and the CDN for DW-Proton builds.
+
+There are different individuals responsible for various projects, so you can choose whom to send your donation to:
+
+- Infrastructure (domain names, servers, CDN; **most of our expenses**): [@Mar0xy](https://github.com/Mar0xy)
+- Patches developers (people responsible for supporting some games running on linux): [@mkrsym1](https://github.com/mkrsym1)
+- DW-Proton (our in-house proton fork with custom patches for some games): [@NelloKudo](https://github.com/NelloKudo)
+- Launchers (AAGL, THRL, "anime steam", etc.): [@krypt0nn](https://github.com/krypt0nn)
+
+We also accept donations through the [OpenCollective](https://opencollective.com/dawn-winery) page.
+
+**Donations are always entirely voluntary.** We do not solicit them, so any contribution is a gift
+from the donor to the developers for their efforts on the projects!
+
+<h4 align="center">OpenCollective • Monthly</h4>
+
 <p align="center">
     <img type="image/svg+xml" src="https://opencollective.com/dawn-winery/tiers/backers.svg?avatarHeight=52&button=false" />
 </p>
 
-<h4 align="center">One-Time</h4>
+<h4 align="center">OpenCollective • One-Time</h4>
+
 <p align="center">
     <img type="image/svg+xml" src="https://opencollective.com/dawn-winery/tiers/5eur-donation.svg?avatarHeight=52&button=false" />
 </p>
 
-<p align="center">Want to support our work and also help us cover our infrastructure cost for DWProton and co?</p>
-<p align="center">
- <a href="https://opencollective.com/dawn-winery"><img src="https://opencollective.com/dawn-winery/donate/button.png?color=white" /></a>
-</p>
