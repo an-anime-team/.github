@@ -16,20 +16,18 @@
 
 ## Donations
 
-All our projects are developed in our free time using our own resources. Essentially, the only
-significant expenses are related to our own infrastructure, most notably the [dawn.wine](https://dawn.wine)
-site and the CDN for DW-Proton builds.
+<p align="center">We accept donations mainly through OpenCollective and would like to thank all our backers</p>
+<h4 align="center">Monthly</h4>
+<p align="center">
+    <img type="image/svg+xml" src="https://opencollective.com/dawn-winery/tiers/backers.svg?avatarHeight=52&button=false" />
+</p>
 
-We do not have a central location where you can simply send a donation and expect it
-to be distributed in some way. Instead, there are different individuals responsible for
-various projects, so you can choose whom to send your donation to:
+<h4 align="center">One-Time</h4>
+<p align="center">
+    <img type="image/svg+xml" src="https://opencollective.com/dawn-winery/tiers/5eur-donation.svg?avatarHeight=52&button=false" />
+</p>
 
-- Infrastructure (domain names, servers, CDN; **most of our expenses**): [@Mar0xy](https://github.com/Mar0xy)
-- Patches developers (people responsible for supporting some games running on linux): [@mkrsym1](https://github.com/mkrsym1)
-- DW-Proton (our in-house proton fork with custom patches for some games): [@NelloKudo](https://github.com/NelloKudo)
-- Launchers (AAGL, THRL, "anime steam", etc.): [@krypt0nn](https://github.com/krypt0nn)
-
-If you're not sure - please contact [@krypt0nn](https://github.com/krypt0nn) or [@Mar0xy](https://github.com/Mar0xy).
-
-Donations are always entirely voluntary. We do not solicit them, so any contribution is a gift
-from the donor to the developers for their efforts on the projects!
+<p align="center">Want to support our work and also help us cover our infrastructure cost for DWProton and co?</p>
+<p align="center">
+ <a href="https://opencollective.com/dawn-winery"><img src="https://opencollective.com/dawn-winery/donate/button.png?color=white" /></a>
+</p>
